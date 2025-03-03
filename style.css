@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+
+header {
+  background-color: rgb(0, 44, 83);
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20241028/pngtree-a-planet-earth-fr-in-focus-stunning-view-from-spaceom-space-image_16461582.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s ease;
+}
+
+header:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  background-color: #010d3b;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  transition: font-weight 0.2s;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.content h3 {
+  text-align: center;
+  color: rgb(5, 75, 154);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 5px;
+}
+
+main {
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan yang lebih kuat */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transisi transformasi dan bayangan */
+}
+
+main:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-image {
+  width: 120px;
+  max-width: 300px;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+.profile-detail p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: #616161;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.info-sosmed {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: rgb(5, 75, 154);
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-link a {
+  background-color: #fff;
+  border: 1px solid;
+  margin: 5px;
+  padding: 15px 100px;
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #0072c4;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s, background-color 0.2s,
+    color 0.2s;
+}
+
+.social-link a:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.5);
+  background-color: #0072c4;
+  color: white;
+}
+
+.info-komen {
+  border: 1px solid #0072c4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  height: 250px;
+}
+
+.isi-komentar {
+  border: 1px solid #0072c4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  height: 300px;
+}
+
+.scroll-container {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.info-komen h3 {
+  color: rgb(5, 75, 154);
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+.isi-komentar {
+  color: rgb(5, 75, 154);
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+textarea {
+  width: 98%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #616161;
+  resize: vertical;
+  border-radius: 8px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #0072c4;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #011560;
+}
+
+.info-komen ul {
+  list-style: none;
+  padding: 0;
+}
+
+.isi-komentar li {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  list-style: none;
+  border: none;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: max-content;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.isi-komentar li small {
+  display: block;
+  color: #888;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #616161;
+  color: white;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-link a {
+    padding: 10px 20px;
+    width: 90%;
+  }
+}
+
+/* Penyesuaian tinggi area komentar */
+.info-komen,
+.isi-komentar {
+  height: auto;
+}

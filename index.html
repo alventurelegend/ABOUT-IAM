@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <header align="center">
+      <h1>About Me</h1>
+      <p>
+        Hai, Selamat datang di my profile,Cari tahu segala informasi tentang
+        saya disini
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#Biografi">Biografi</a></li>
+        <li><a href="#Sosial">Sosial Media</a></li>
+        <li><a href="#Komen">Komentar</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <h3 id="Biografi">My Biografi</h3>
+      <div class="profile">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGvFJcyogDJHEuDIW2VERS-FK1Z07kj0HWuA&s"
+          alt=""
+          width="100px"
+          class="profile-image"
+        />
+        <div class="profile-detail">
+          <p>Nama : CH Alga Praditya</p>
+          <p>Pekerjaan : Pelajar</p>
+          <p>Asal Sekolah : SMK Negeri 2 Sragen</p>
+          <p>Jurusan : TJKT (Teknik Jaringan Komputer & Telekomunikasi)</p>
+        </div>
+      </div>
+    </main>
+
+    <main>
+      <div class="info-sosmed">
+        <h3 id="Sosial">Get Other Information</h3>
+
+        <div class="social-link">
+          <a href="https://www.instagram.com/chalgap_?utm_source=qr"
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+          <a
+            href="https://www.tiktok.com/@_chalgap?is_from_webapp=1&sender_device=pc"
+            ><i class="fab fa-tiktok"></i> TikTok</a
+          >
+          <a
+            href="https://www.linkedin.com/in/ch-alga-praditya-53981a34b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/alventurelegend"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a href="https://wa.me/6285869209224"
+            ><i class="fab fa-whatsapp"></i> WhatsApp</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <main>
+      <div class="info-komen">
+        <h3 id="Komen">Tingalkan Komentarmu</h3>
+
+        <form id="komen-netizen">
+          <textarea
+            id="komen-text"
+            placeholder="Tinggalkan Komentar anda"
+          ></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+
+      <div class="isi-komentar">
+        <h3>Komentar</h3>
+        <div class="scroll-container">
+          <ul id="coments"></ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; CH Alga Praditya 2025</p>
+    </footer>
+  </body>
+</html>
